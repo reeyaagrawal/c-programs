@@ -1,0 +1,10 @@
+// Use library functions to calculate the square of a number given by user.
+#include<stdio.h>
+#include<math.h>
+int main(){
+    double n;
+    printf("enter number: ");
+    scanf("%lf",&n);
+    printf("square of %lf is : %lf",n,pow(n,2));
+    return 0;
+}
